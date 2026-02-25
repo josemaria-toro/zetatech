@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "args": "",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/Zetatech.Gambling.Api",
+            "name": "Gambling (api)",
+            "preLaunchTask": "dotnet: build",
+            "program": "${workspaceFolder}/Zetatech.Gambling.Api/bin/Debug/net10.0/Zetatech.Gambling.Api.dll",
+            "request": "launch",
+            "stopAtEntry": false,
+            "type": "coreclr"
+        },
+        {
+            "args": "",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/Zetatech.Tracking.Ingestion",
+            "name": "Tracking (ingestion)",
+            "preLaunchTask": "dotnet: build",
+            "program": "${workspaceFolder}/Zetatech.Tracking.Ingestion/bin/Debug/net10.0/Zetatech.Tracking.Ingestion.dll",
+            "request": "launch",
+            "stopAtEntry": false,
+            "type": "coreclr"
+        },
+        {
+            "args": "",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/Zetatech.Tracking.Processor",
+            "name": "Tracking (processor)",
+            "preLaunchTask": "dotnet: build",
+            "program": "${workspaceFolder}/Zetatech.Tracking.Processor/bin/Debug/net10.0/Zetatech.Tracking.Processor.dll",
+            "request": "launch",
+            "stopAtEntry": false,
+            "type": "coreclr"
+        }
+    ],
+    "version": "0.2.0"
+}
