@@ -1,0 +1,100 @@
+{
+    "tasks": [
+        {
+            "command": "dotnet restore Zetatech.Tracking.sln --nologo --verbosity normal",
+            "dependsOn": [],
+            "dependsOrder": "sequence",
+            "group": {
+                "isDefault": false,
+                "kind": "none"
+            },
+            "hide": true,
+            "label": "zetatech: restore",
+            "problemMatcher": "$msCompile",
+            "type": "shell"
+        },
+        {
+            "command": "dotnet clean Zetatech.Tracking.sln --configuration Release --nologo --verbosity normal",
+            "dependsOn": [
+                "zetatech: restore"
+            ],
+            "dependsOrder": "sequence",
+            "group": {
+                "isDefault": false,
+                "kind": "none"
+            },
+            "hide": true,
+            "label": "zetatech: clean",
+            "problemMatcher": "$msCompile",
+            "type": "shell"
+        },
+        {
+            "command": "dotnet build Zetatech.Tracking.sln --configuration Release --nologo --no-restore --verbosity normal",
+            "dependsOn": [
+                "zetatech: clean"
+            ],
+            "dependsOrder": "sequence",
+            "group": {
+                "isDefault": false,
+                "kind": "none"
+            },
+            "hide": true,
+            "label": "zetatech: build",
+            "problemMatcher": "$msCompile",
+            "type": "shell"
+        },
+        {
+            "command": "mkdir -p .releases && rm -rf .releases/ingestion && cp -rf Zetatech.Tracking.Ingestion/bin/Release/net10.0 .releases/ingestion",
+            "dependsOn": [],
+            "dependsOrder": "sequence",
+            "group": {
+                "isDefault": false,
+                "kind": "none"
+            },
+            "hide": true,
+            "label": "zetatech: ingestion",
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "promptOnClose": false,
+            "type": "shell"
+        },
+        {
+            "command": "mkdir -p .releases && rm -rf .releases/processor && cp -rf Zetatech.Tracking.Processor/bin/Release/net10.0 .releases/processor",
+            "dependsOn": [],
+            "dependsOrder": "sequence",
+            "group": {
+                "isDefault": false,
+                "kind": "none"
+            },
+            "hide": true,
+            "label": "zetatech: processor",
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "promptOnClose": false,
+            "type": "shell"
+        },
+        {
+            "command": "echo Proceso finalizado...",
+            "dependsOn": [
+                "zetatech: build",
+                "zetatech: ingestion",
+                "zetatech: processor"
+            ],
+            "dependsOrder": "sequence",
+            "group": {
+                "isDefault": false,
+                "kind": "none"
+            },
+            "hide": false,
+            "label": "zetatech: release",
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "promptOnClose": false,
+            "type": "shell"
+        }
+    ],
+    "version": "2.0.0"
+}
