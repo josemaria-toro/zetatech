@@ -3,7 +3,7 @@
         <AnalysisLevel>5.0</AnalysisLevel>
         <AssemblyName>Zetatech.Tracking.Processor</AssemblyName>
         <AssemblyOriginatorKeyFile>$(SolutionDir)/Signature.snk</AssemblyOriginatorKeyFile>
-        <AssemblyTitle>Message processor service for tracking system</AssemblyTitle>
+        <AssemblyTitle>Message processor service for tracking platform</AssemblyTitle>
         <AssemblyVersion>10.0.0</AssemblyVersion>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
         <Authors>Zeta Technologies</Authors>
@@ -13,7 +13,7 @@
         <ContentTargetFolders>content</ContentTargetFolders>
         <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
         <Copyright>Zeta Technologies © 2025</Copyright>
-        <Description>Message processor service for tracking system</Description>
+        <Description>Message processor service for tracking platform</Description>
         <EnableNETAnalyzers>true</EnableNETAnalyzers>
         <EnablePackageValidation>true</EnablePackageValidation>
         <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
@@ -34,7 +34,7 @@
         <NeutralLanguage>en-US</NeutralLanguage>
         <Nullable>disable</Nullable>
         <OutputType>exe</OutputType>
-        <PackageDescription>Message processor service for tracking system</PackageDescription>
+        <PackageDescription>Message processor service for tracking platform</PackageDescription>
         <PackageIcon>PackageIcon.png</PackageIcon>
         <PackageId>Zetatech.Tracking.Processor</PackageId>
         <PackageLicenseFile>License.txt</PackageLicenseFile>
@@ -43,7 +43,7 @@
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <PackageTags>Processor Service Tracking Zetatech</PackageTags>
         <PackageVersion>10.0.0</PackageVersion>
-        <Product>Tracking System</Product>
+        <Product>Tracking Platform</Product>
         <PublishDocumentationFile>false</PublishDocumentationFile>
         <PublishDocumentationFiles>false</PublishDocumentationFiles>
         <RepositoryType>git</RepositoryType>

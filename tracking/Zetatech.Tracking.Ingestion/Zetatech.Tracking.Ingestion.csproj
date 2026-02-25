@@ -3,7 +3,7 @@
         <AnalysisLevel>5.0</AnalysisLevel>
         <AssemblyName>Zetatech.Tracking.Ingestion</AssemblyName>
         <AssemblyOriginatorKeyFile>$(SolutionDir)/Signature.snk</AssemblyOriginatorKeyFile>
-        <AssemblyTitle>Ingestion API for tracking system</AssemblyTitle>
+        <AssemblyTitle>Ingestion API for tracking platform</AssemblyTitle>
         <AssemblyVersion>10.0.0</AssemblyVersion>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
         <Authors>Zeta Technologies</Authors>
@@ -13,7 +13,7 @@
         <ContentTargetFolders>content</ContentTargetFolders>
         <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
         <Copyright>Zeta Technologies © 2025</Copyright>
-        <Description>Ingestion API for tracking system</Description>
+        <Description>Ingestion API for tracking platform</Description>
         <EnableNETAnalyzers>true</EnableNETAnalyzers>
         <EnablePackageValidation>true</EnablePackageValidation>
         <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
@@ -34,16 +34,16 @@
         <NeutralLanguage>en-US</NeutralLanguage>
         <Nullable>disable</Nullable>
         <OutputType>exe</OutputType>
-        <PackageDescription>Ingestion API for tracking system</PackageDescription>
+        <PackageDescription>Ingestion API for tracking platform</PackageDescription>
         <PackageIcon>PackageIcon.png</PackageIcon>
         <PackageId>Zetatech.Tracking.Ingestion</PackageId>
         <PackageLicenseFile>License.txt</PackageLicenseFile>
         <PackageProjectUrl>https://github.com/users/josemaria-toro/projects/14</PackageProjectUrl>
         <PackageReadmeFile>Readme.md</PackageReadmeFile>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-        <PackageTags>Processor Service Tracking Zetatech</PackageTags>
+        <PackageTags>Api Ingestion Tracking Zetatech</PackageTags>
         <PackageVersion>10.0.0</PackageVersion>
-        <Product>Tracking System</Product>
+        <Product>Tracking Platform</Product>
         <PublishDocumentationFile>false</PublishDocumentationFile>
         <PublishDocumentationFiles>false</PublishDocumentationFiles>
         <RepositoryType>git</RepositoryType>
