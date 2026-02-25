@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Zetatech.Accelerate</id>
+    <version>10.0.0</version>
+    <authors>Zeta Technologies</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">License.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>PackageIcon.png</icon>
+    <readme>Readme.md</readme>
+    <projectUrl>https://github.com/users/josemaria-toro/projects/14</projectUrl>
+    <description>Framework core components library</description>
+    <copyright>Zeta Technologies © 2025</copyright>
+    <tags>Accelerate Application Domain Exceptions Infrastructure Zetatech</tags>
+    <repository type="git" url="https://github.com/josemaria-toro/accelerate.git" commit="c9248e7acee489439b506903c872685cb74218a4" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="Microsoft.AspNetCore.Http" version="2.3.9" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Http.Features" version="2.3.9" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="10.0.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.EnvironmentVariables" version="10.0.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="10.0.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.UserSecrets" version="10.0.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="10.0.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="10.0.3" exclude="Build,Analyzers" />
+        <dependency id="Npgsql.EntityFrameworkCore.PostgreSQL" version="10.0.0" exclude="Build,Analyzers" />
+        <dependency id="RabbitMQ.Client" version="7.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/media/sda/sources/zetatech/accelerate/Zetatech.Accelerate/bin/Release/net10.0/Zetatech.Accelerate.pdb" target="lib/net10.0/Zetatech.Accelerate.pdb" />
+  </files>
+</package>
