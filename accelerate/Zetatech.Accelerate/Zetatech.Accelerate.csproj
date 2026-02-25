@@ -47,7 +47,7 @@
         <PublishDocumentationFile>false</PublishDocumentationFile>
         <PublishDocumentationFiles>false</PublishDocumentationFiles>
         <RepositoryType>git</RepositoryType>
-        <RepositoryUrl>https://github.com/josemaria-toro/accelerate.git</RepositoryUrl>
+        <RepositoryUrl>https://github.com/josemaria-toro/zetatech.git</RepositoryUrl>
         <RootNamespace>Zetatech.Accelerate</RootNamespace>
         <RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
         <RunAnalyzersDuringLiveAnalysis>true</RunAnalyzersDuringLiveAnalysis>
@@ -68,7 +68,7 @@
         <Optimize>true</Optimize>
     </PropertyGroup>
     <ItemGroup>
-        <Content Include="Readme.md" Pack="true" PackagePath="Readme.md" />
+        <Content Include="readme.md" Pack="true" PackagePath="Readme.md" />
     </ItemGroup>
     <ItemGroup>
         <Content Include="$(SolutionDir)/License.txt" Pack="true" PackagePath="License.txt" />

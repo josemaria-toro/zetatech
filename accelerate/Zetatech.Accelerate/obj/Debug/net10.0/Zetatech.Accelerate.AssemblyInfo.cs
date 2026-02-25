@@ -15,11 +15,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Zeta Technologies © 2025")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Framework core components library")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("10.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("10.0.0+c9248e7acee489439b506903c872685cb74218a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("10.0.0+0824411435ce7eda2a2175edd47b97c5e321c417")]
 [assembly: System.Reflection.AssemblyProductAttribute("Accelerate Framework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Framework core components library")]
 [assembly: System.Reflection.AssemblyVersionAttribute("10.0.0")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/josemaria-toro/accelerate.git")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/josemaria-toro/zetatech.git")]
 [assembly: System.Resources.NeutralResourcesLanguageAttribute("en-US")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
