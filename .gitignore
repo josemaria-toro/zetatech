@@ -4,8 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 # Customs
-.packages
-.releases
+.packages/
+.releases/
 
 # User-specific files
 *.rsuser
