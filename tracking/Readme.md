@@ -1,6 +1,6 @@
 # Zetatech Tracking System
 ## 📋 Descripción
-**Zetatech Traking** es un sistema para la ingesta y procesamiento de mensajes con datos de telemetría, provenientes de las aplicaciones existentes en el ecosistema. El sistema esta compuesto por 2 componentes que permitirán, por un lado, la ingesta de mensajes, y por otro, el procesamiento de los mismos.
+**Zetatech Tracking** es un sistema para la ingesta y procesamiento de mensajes con datos de telemetría, provenientes de las aplicaciones existentes en el ecosistema. El sistema esta compuesto por 2 componentes que permitirán, por un lado, la ingesta de mensajes, y por otro, el procesamiento de los mismos.
 ## 🏗️ Estructura
 ```
 Zetatech.Tracking
